@@ -11,7 +11,7 @@
 import unittest
 
 try:
-    import numpy as np  # noqa F401
+    import numpy as np  
 except ImportError:
     from Bio import MissingPythonDependencyError
 
